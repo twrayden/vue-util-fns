@@ -1,23 +1,5 @@
-/**
- * 
- * Art by Blazej Kozlowski
- *     _                        
- *     \`*-.                    
- *      )  _`-.                 
- *     .  : `. .                
- *     : _   '  \               
- *     ; *` _.   `*-._          
- *     `-.-'          `-.       
- *       ;       `       `.     
- *       :.       .        \    
- *       . \  .   :   .-'   .   
- *       '  `+.;  ;  '      :   
- *       :  '  |    ;       ;-. 
- *       ; '   : :`-:     _.`* ;
- *    .*' /  .*' ; .*`- +'  `*' 
- *    `*-*   `*-*  `*-*'
- * 
- * 
- * @todo: write code here...
- * 
- */
+export * from "./component.js";
+export * from "./instance.js";
+export * from "./props.js";
+export * from "./refs.js";
+export * from "./state.js";
