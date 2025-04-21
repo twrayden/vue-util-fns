@@ -10,7 +10,7 @@
   "scripts": {
     "build": "del-cli dist && tsc",
     "dev": "ts-node --esm ./src/index.ts",
-    "docs": "typedoc --plugin typedoc-plugin-markdown --out ./docs"
+    "docs": "typedoc --plugin typedoc-plugin-markdown --out ./docs --router module"
   },
   "dependencies": {
     "change-case": "4.1.2"
