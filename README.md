@@ -14,14 +14,15 @@ The `useResetableState` function provides a way to manage reactive state in Vue 
 #### Returns
 
 An object with the following properties:
+
 - `ref<T>(value: T, getter?: ResetGetterFn<T>): ResetableRef<T>`: Creates a resettable reactive reference. Optionally, a `getter` function can be provided to customize the reset behavior.
 - `reset(trigger?: boolean): void`: Resets all registered state values to their initial values.
 
 #### Example Usage
 
 ```typescript
-import { useResetableState } from "./src/state";
 import { ref } from "vue";
+import { useResetableState } from "vue-util-fns";
 
 const isActive = ref(false); // Example trigger
 const state = useResetableState(isActive);
