@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../globals.md) / useChangeDetector
+[vue-util-fns](../README.md) / useChangeDetector
 
 # Function: useChangeDetector()
 
 > **useChangeDetector**(): `object`
 
-Defined in: [src/state.ts:145](https://github.com/twrayden/vue-util-fns/blob/487169239ee4b033f1417de7c08af816b85b4aa8/src/state.ts#L145)
+Defined in: [src/state.ts:145](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/state.ts#L145)
 
 Provides a utility to detect changes in reactive state values.
 Useful for tracking whether any watched state has been modified.

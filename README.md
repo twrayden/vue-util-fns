@@ -2,12 +2,12 @@
 
 ## Functions
 
-- [assertCurrentInstance](docs/assertCurrentInstance.md)
-- [injectStrict](docs/injectStrict.md)
-- [isComponentInstance](docs/isComponentInstance.md)
-- [refSetter](docs/refSetter.md)
-- [refToggler](docs/refToggler.md)
-- [refTransformer](docs/refTransformer.md)
-- [useChangeDetector](docs/useChangeDetector.md)
-- [useComputedProp](docs/useComputedProp.md)
-- [useResetableState](docs/useResetableState.md)
+- [assertCurrentInstance](functions/assertCurrentInstance.md)
+- [injectStrict](functions/injectStrict.md)
+- [isComponentInstance](functions/isComponentInstance.md)
+- [refSetter](functions/refSetter.md)
+- [refToggler](functions/refToggler.md)
+- [refTransformer](functions/refTransformer.md)
+- [useChangeDetector](functions/useChangeDetector.md)
+- [useComputedProp](functions/useComputedProp.md)
+- [useResetableState](functions/useResetableState.md)
