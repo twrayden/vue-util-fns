@@ -2,7 +2,7 @@
 
 ***
 
-[vue-util-fns](../README.md) / refSetter
+[vue-util-fns](../globals.md) / refSetter
 
 # Function: refSetter()
 
@@ -10,7 +10,7 @@
 
 > **refSetter**\<`T`\>(`target?`): (`value`) => `void`
 
-Defined in: [src/refs.ts:20](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/refs.ts#L20)
+Defined in: [refs.ts:22](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/refs.ts#L22)
 
 Creates a setter function for a Vue ref.
 
@@ -58,9 +58,9 @@ console.log(myRef.value); // 42
 
 ## Call Signature
 
-> **refSetter**\<`T`\>(`target`, `value`): () => `void`
+> **refSetter**\<`T`\>(`target`, `value`): `VoidFunction`
 
-Defined in: [src/refs.ts:29](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/refs.ts#L29)
+Defined in: [refs.ts:31](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/refs.ts#L31)
 
 Creates a setter function for a Vue ref with a predefined value.
 
@@ -86,10 +86,6 @@ The value to set in the ref.
 
 ### Returns
 
+`VoidFunction`
+
 A function to set the value of the ref.
-
-> (): `void`
-
-#### Returns
-
-`void`

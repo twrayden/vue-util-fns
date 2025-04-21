@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../README.md) / assertCurrentInstance
+[vue-util-fns](../globals.md) / assertCurrentInstance
 
 # Function: assertCurrentInstance()
 
-> **assertCurrentInstance**(`name`): `Vue`\<`Record`\<`string`, `any`\>, `Record`\<`string`, `any`\>, `never`, `never`, (`event`, ...`args`) => Vue\<Record\<string, any\>, Record\<string, any\>, never, never, (event: string, ...args: any\[\]) =\> Vue\<Record\<string, any\>, Record\<string, any\>, never, never, ...\>\>\>
+> **assertCurrentInstance**(`name`): `Vue`
 
-Defined in: [src/instance.ts:22](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/instance.ts#L22)
+Defined in: [instance.ts:22](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/instance.ts#L22)
 
 Ensures that the current function is called within a Vue setup function.
 
@@ -22,7 +22,7 @@ The name of the function to assert.
 
 ## Returns
 
-`Vue`\<`Record`\<`string`, `any`\>, `Record`\<`string`, `any`\>, `never`, `never`, (`event`, ...`args`) => Vue\<Record\<string, any\>, Record\<string, any\>, never, never, (event: string, ...args: any\[\]) =\> Vue\<Record\<string, any\>, Record\<string, any\>, never, never, ...\>\>\>
+`Vue`
 
 The proxy of the current Vue instance.
 

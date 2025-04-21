@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../README.md) / isComponentInstance
+[vue-util-fns](../globals.md) / isComponentInstance
 
 # Function: isComponentInstance()
 
 > **isComponentInstance**(`obj`): `obj is ComponentPublicInstance`
 
-Defined in: [src/component.ts:19](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/component.ts#L19)
+Defined in: [component.ts:19](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/component.ts#L19)
 
 Checks if the given object is a Vue component instance.
 

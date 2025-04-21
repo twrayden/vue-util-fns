@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../README.md) / refToggler
+[vue-util-fns](../globals.md) / refToggler
 
 # Function: refToggler()
 
-> **refToggler**(`target?`): () => `void`
+> **refToggler**(`target?`): `VoidFunction`
 
-Defined in: [src/refs.ts:90](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/refs.ts#L90)
+Defined in: [refs.ts:92](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/refs.ts#L92)
 
 Creates a toggler function for a Vue ref.
 
@@ -22,13 +22,9 @@ Creates a toggler function for a Vue ref.
 
 ## Returns
 
+`VoidFunction`
+
 A function to toggle the value of the ref.
-
-> (): `void`
-
-### Returns
-
-`void`
 
 ## Example
 

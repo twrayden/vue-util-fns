@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../README.md) / refTransformer
+[vue-util-fns](../globals.md) / refTransformer
 
 # Function: refTransformer()
 
 > **refTransformer**\<`T`, `R`\>(`target`, `transformer`): (`value`) => `void`
 
-Defined in: [src/refs.ts:64](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/refs.ts#L64)
+Defined in: [refs.ts:66](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/refs.ts#L66)
 
 Creates a transformer function for a Vue ref.
 

@@ -2,13 +2,13 @@
 
 ***
 
-[vue-util-fns](../README.md) / useResetableState
+[vue-util-fns](../globals.md) / useResetableState
 
 # Function: useResetableState()
 
 > **useResetableState**(`trigger?`, `triggerCb?`): `ResetableState`
 
-Defined in: [src/state.ts:70](https://github.com/twrayden/vue-util-fns/blob/65afb63e2312c0b897b2d6a58444b0a16f26738d/src/state.ts#L70)
+Defined in: [state.ts:70](https://github.com/twrayden/vue-util-fns/blob/1b4db92011fb7d25fa7a1eefe502becacb828e32/src/state.ts#L70)
 
 Provides a way to manage reactive state in Vue with the ability to reset state values to their initial values.
 Useful for forms or components that need to reset their state based on a trigger.
