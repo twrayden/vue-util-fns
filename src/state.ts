@@ -143,9 +143,6 @@ export function useResetableState(
  * - The `watchRef` function does not alter the original `Ref` but provides a computed wrapper to track changes.
  */
 export function useChangeDetector() {
-  /**
-   * A reactive reference indicating whether any watched state has been modified.
-   */
   const hasChanges = ref(false);
 
   /**
