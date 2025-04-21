@@ -64,5 +64,7 @@ export function useChangeDetector() {
       },
     });
 
-  return { hasChanges, watchRef };
+  const self = { hasChanges, watchRef };
+
+  return self;
 }

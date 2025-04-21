@@ -57,3 +57,43 @@ state.reset();
 
 - The `reset` function can be called manually or triggered automatically when the `trigger` changes.
 - The `getter` function allows for dynamic reset behavior based on the initial value and the trigger state.
+
+### `useChangeDetector`
+
+The `useChangeDetector` function provides a utility to detect changes in reactive state values. It is useful for tracking whether any watched state has been modified.
+
+#### Returns
+
+An object with the following properties:
+
+- `hasChanges: Ref<boolean>`: A reactive reference that indicates whether any watched state has been changed.
+- `watchRef<T>(r: Ref<T>): ComputedRef<T>`: A function that wraps a given `Ref` in a computed property. The setter of the computed property marks `hasChanges` as `true` whenever the value of the `Ref` is updated.
+
+#### Example Usage
+
+```typescript
+import { ref } from "vue";
+import { useChangeDetector } from "vue-util-fns";
+
+const detector = useChangeDetector();
+
+// Define reactive state
+const name = ref("John");
+const age = ref(30);
+
+// Watch the state using `watchRef`
+const watchedName = detector.watchRef(name);
+const watchedAge = detector.watchRef(age);
+
+// Modify the state
+watchedName.value = "Doe";
+watchedAge.value = 31;
+
+// Check if changes were detected
+console.log(detector.hasChanges.value); // true
+```
+
+#### Notes
+
+- The `hasChanges` property is updated to `true` whenever a watched `Ref` is modified.
+- The `watchRef` function does not alter the original `Ref` but provides a computed wrapper to track changes.
